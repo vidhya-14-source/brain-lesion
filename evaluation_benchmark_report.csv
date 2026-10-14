@@ -1,0 +1,11 @@
+Metric,Subset,Mean,Std,Mean ± Std,N_Samples
+Pixel Dice,All Lesions,0.9449962144056071,0.05790918503287283,0.9450 ± 0.0579,12
+Pixel IoU,All Lesions,0.9012864393876181,0.10129769235065278,0.9013 ± 0.1013,12
+Pixel AUROC,All Lesions,0.9999929205401425,7.365583940728083e-06,1.0000 ± 0.0000,8
+Pixel AUPRC,All Lesions,0.9992866894229961,0.0007421490017084672,0.9993 ± 0.0007,8
+Lesion Sensitivity,All Lesions,1.0,0.0,1.0000 ± 0.0000,8
+Lesion Sensitivity,Small (<100 px),1.0,0.0,1.0000 ± 0.0000,8
+Lesion Sensitivity,Medium (100-400 px),1.0,0.0,1.0000 ± 0.0000,4
+Lesion Sensitivity,Large (>400 px),0.0,0.0,N/A,0
+False Positives Per Image (FPPI),Per Image,0.0,0.0,0.0000 ± 0.0000,12
+Image-level AUROC,Dataset Level,1.0,0.0,1.0000,12

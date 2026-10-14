@@ -1,0 +1,8 @@
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+checkpoints/*.pth
+healthy_data/
+qa_artifacts/
+*.log
